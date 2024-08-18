@@ -1,0 +1,58 @@
+.content {
+    background-image: url('/data-images/about-body.jpg');
+    background-position: left;
+    background-size: cover;
+    padding: 30px;
+}
+
+.about_text {
+    margin-bottom: 40px;
+}
+
+.about_p1 {
+    color: white;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+.about_p2 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about_h3 {
+    color: #FD5521;
+    font-weight: bold;
+    font-size: 1.7em;
+    padding: 10px 0px;
+}
+
+.h3 {
+    font-family: 'Poppins';
+    color: white;
+    font-size: 3em;
+}
+
+.data_text {
+    margin-bottom: 40px;
+}
+
+.data_p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.line {
+    color: white;
+}
+
+.signature_img {
+    height: 80px;
+}
+
+.signature {
+    color: white;
+    margin-top: 5px;
+    font-weight: 14em;
+}

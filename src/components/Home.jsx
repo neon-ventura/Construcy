@@ -3,6 +3,7 @@ import Nav from "./nav/Nav"
 import ReadMore from "./saiba-mais/ReadMore"
 import ServicesDetails from "./serviços-detalhe/ServicesDetails"
 import '../App.css'
+import About from "./about/About"
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
                 <Header />
                 <ReadMore />
                 <ServicesDetails />
+                <About />
             </body>
         </>
     )
