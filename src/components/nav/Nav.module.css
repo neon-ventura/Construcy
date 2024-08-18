@@ -1,0 +1,64 @@
+.nav {
+    background-color: transparent;
+    height: 100px;
+    color: black !important;
+}
+
+.title {
+    color: white;
+    /* color: #FD5521 !important; */
+    background-color: rgba(0, 0, 0, 0.467);
+    font-size: 2em !important;
+    border: 1px solid #FD5521;
+    padding: 5px;
+}
+
+
+.toggle {
+    background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="%23FD5521" viewBox="0 0 16 16"><path d="M2 3h12v1H2V3zm0 4h12v1H2V7zm0 4h12v1H2v-1z"/></svg>') !important;
+    background-size: 1.5em 1.5em;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+}
+
+.offcanvas_title {
+    color: #FD5521;
+    border: 1px solid;
+    padding: 5px;
+}
+
+.btn_close {
+    background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23FD5521" class="bi bi-x" viewBox="0 0 16 16"><path d="M1.5 1.5a1 1 0 0 1 1.414 0L8 6.586 13.086 1.5a1 1 0 1 1 1.414 1.414L9.414 8l5.086 5.086a1 1 0 0 1-1.414 1.414L8 9.414 2.914 14.5a1 1 0 0 1-1.414-1.414L6.586 8 1.5 2.914A1 1 0 0 1 1.5 1.5z"/></svg>') !important;
+    background-color: transparent !important; /* Se o botão tem fundo, remova-o */
+    background-size: 1em 1em !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    border: none !important; /* Remove borda se necessário */
+    width: 1.5em !important; /* Ajuste o tamanho conforme necessário */
+    height: 1.5em !important;
+}
+
+.offcanvas_body {
+    background-color: white;
+}
+
+.nav_link {
+    color: black !important;
+    font-size: 2em !important;
+    padding: 10px !important;
+}
+
+.nav_link:hover {
+    color: #FD5521 !important;
+}
+
+.offcanvas_header {
+    background-color: white;
+}
+  
+.nav_ul {
+    display: flex;
+    align-items: center;
+    height: 60vh;
+}

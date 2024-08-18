@@ -1,0 +1,43 @@
+.services_text {
+    padding: 30px;
+}
+
+
+.h3 {
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 10px;
+}
+
+.p {
+    margin-top: 30px;
+}
+
+.img1 {
+    background-image: url('/servicesDetails/img-1.jpg');
+    height: 400px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.img2 {
+    background-image: url('/servicesDetails/img-2.jpg');
+    height: 400px;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.img3 {
+    background-image: url('/servicesDetails/img-3.jpg');
+    height: 400px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.img4 {
+    background-image: url('/servicesDetails/img-4.jpg');
+    height: 400px;
+    width: 300px;
+    background-position: right;
+    background-size: cover;
+    margin: auto;
+}

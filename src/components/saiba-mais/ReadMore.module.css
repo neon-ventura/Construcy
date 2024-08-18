@@ -1,0 +1,25 @@
+.content {
+    padding: 20px;
+}
+
+.paragraph {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.h3 {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #FD5521;
+}
+
+.btn {
+    background-color: #FD5521;
+    color: black;
+    padding: 15px;
+    border: none;
+    width: 150px;
+    margin-top: 20px;
+}
