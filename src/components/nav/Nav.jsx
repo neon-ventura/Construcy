@@ -5,7 +5,7 @@ const Nav = () => {
         <>
             <nav className={`${styles.nav} navbar navbar-dark fixed-top`}>
                 <div className={`${styles.container} container-fluid`}>
-                    <a className={`${styles.title} navbar-brand`} href="#">Construcy</a>
+                    <a className={`${styles.title} navbar-brand`} href="/">Construcy</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                         <span className={`${styles.toggle} navbar-toggler-icon`}></span>
                     </button>
@@ -17,10 +17,10 @@ const Nav = () => {
                         <div className={`${styles.offcanvas_body} offcanvas-body`}>
                             <ul className={`${styles.nav_ul} navbar-nav justify-content-end flex-grow-1 pe-1`}>
                                 <li className="nav-item">
-                                    <a className={`${styles.nav_link} nav-link`} href="#">Home</a>
+                                    <a className={`${styles.nav_link} nav-link`} href="/">Home</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className={`${styles.nav_link} nav-link`} href="#">Serviços</a>
+                                    <a className={`${styles.nav_link} nav-link`} href="/services">Serviços</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className={`${styles.nav_link} nav-link`} href="#">Projetos</a>

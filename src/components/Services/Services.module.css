@@ -1,0 +1,65 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.services_header {
+    padding: 30px;
+}
+
+.p1 {
+    font-size: 1.3em;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+
+.h3 {
+    color: #FD5521;
+    font-weight: bold;
+    font-size: 1.7em;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+}
+
+/* ------------- */
+
+.icon {
+    color: #FD5521;
+    margin-bottom: 10px;
+}
+
+.p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+}
+
+.img {
+    height: 300px;
+    width: 100vw;
+}
+
+.commercial {
+    padding: 30px;
+}
+.residential {
+    padding: 30px;
+}
+.pre {
+    padding: 30px;
+}
+.special {
+    padding: 30px;
+}
+.site {
+    padding: 30px;
+}
+.construction {
+    padding: 30px;
+}
+.civil {
+    padding: 30px;
+}
+.landscape {
+    padding: 30px;
+}
