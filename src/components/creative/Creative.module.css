@@ -1,0 +1,16 @@
+.content {
+    color: #FD5521;
+}
+
+.card {
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+.p {
+    color: black;
+    font-family:  'Poppins', sans-serif;
+    font-size: 1.5em;
+    margin-top: 10px;
+}

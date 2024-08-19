@@ -9,7 +9,7 @@ const Nav = () => {
                     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                         <span className={`${styles.toggle} navbar-toggler-icon`}></span>
                     </button>
-                    <div className="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div className="offcanvas offcanvas-end text-bg-dark" tabIndex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
                         <div className={`${styles.offcanvas_header} offcanvas-header`}>
                             <h5 className={`${styles.offcanvas_title} offcanvas-title`} id="offcanvasDarkNavbarLabel">Construcy</h5>
                             <button type="button" className={`${styles.btn_close} btn-close`} data-bs-dismiss="offcanvas" aria-label="Close"></button>
