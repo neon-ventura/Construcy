@@ -12,11 +12,11 @@ const Creative = () => {
             <div className={styles.content}>
                 <div className={styles.card}>
                     <FaRegBuilding size={70} />
-                    <p className={styles.p}>Contrução Comercial</p>
+                    <p className={styles.p}>Construção Comercial</p>
                 </div>
                 <div className={styles.card}>
                     <CiHome size={70}/>
-                    <p className={styles.p}>Contrução Residencial</p>
+                    <p className={styles.p}>Construção Residencial</p>
                 </div>
                 <div className={styles.card}>
                     <CiMap size={70}/>
@@ -40,7 +40,7 @@ const Creative = () => {
                 </div>
                 <div className={styles.card}>
                     <MdOutlineWallpaper size={70}/>
-                    <p className={styles.p}>Contrução de Paisagens</p>
+                    <p className={styles.p}>Construção de Paisagens</p>
                 </div>
             </div>
         </>
