@@ -7,7 +7,7 @@ const Header = () => {
             <header className={styles.header}>
                 <video className={styles.video} src="/header/header-video.mp4" loop autoPlay muted></video>
                 <div className={styles.content}>
-                    <h1 className={styles.title}>Contruindo um futuro Concreto</h1>
+                    <h1 className={styles.title}>Construindo um futuro Concreto</h1>
                     <div className={styles.desc}>
                         <h2 className={styles.desc_text}>Honestidade, Confiança</h2>
                         <h2 className={styles.desc_text}>Construtores desde 1968</h2>

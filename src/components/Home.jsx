@@ -4,6 +4,7 @@ import ReadMore from "./saiba-mais/ReadMore"
 import ServicesDetails from "./serviços-detalhe/ServicesDetails"
 import '../App.css'
 import About from "./about/About"
+import OurServices from "./our-services/OurServices"
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
                 <ReadMore />
                 <ServicesDetails />
                 <About />
+                <OurServices />
             </body>
         </>
     )
