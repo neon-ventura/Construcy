@@ -18,6 +18,10 @@ const OurProjects = () => {
                         <div className="carousel-inner">
                             <div className="carousel-item active">
                                 <img src="/ourProjects/img-1.jpg" className={`${styles.img} d-block w-100`} alt="..." />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>First slide label</h5>
+                                    <p>Some representative placeholder content for the first slide.</p>
+                                </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="/ourProjects/img-2.jpg" className={`${styles.img} d-block w-100`} alt="..." />
@@ -35,6 +39,7 @@ const OurProjects = () => {
                             <span className="visually-hidden">Next</span>
                         </button>
                     </div>
+                    <hr className={styles.hr}/>
                 </div>
             </div>
         </>

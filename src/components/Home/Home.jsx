@@ -7,6 +7,7 @@ import About from "./about/About"
 import OurServices from "./our-services/OurServices"
 import Creative from "./creative/Creative"
 import OurProjects from "./our-projects/OurProjects"
+import Footer from "../Footer/Footer"
 
 const Home = () => {
     return (
@@ -20,6 +21,7 @@ const Home = () => {
                 <OurServices />
                 <Creative />
                 <OurProjects />
+                <Footer />
             </body>
         </>
     )

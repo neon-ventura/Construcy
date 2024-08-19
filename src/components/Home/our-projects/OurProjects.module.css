@@ -18,3 +18,8 @@
 .img {
     height: 200px;
 }
+
+.hr {
+    margin-top: 40px;
+    border: 1px solid black;
+}
