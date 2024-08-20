@@ -14,7 +14,7 @@ const Header = () => {
                     </div>
                     <div className={styles.buttons}>
                         <Link to={'/'}> <button className={styles.btn_1}>Ver Projetos</button> </Link>
-                        <Link to={'/'}> <button className={styles.btn_2}>Contate-nos</button> </Link>
+                        <Link to={'/contato'}> <button className={styles.btn_2}>Contate-nos</button> </Link>
                     </div>
                 </div>
             </header>

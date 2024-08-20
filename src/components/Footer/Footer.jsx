@@ -25,7 +25,7 @@ const Footer = () => {
                         <p>Para qualquer duvida ou elogios, por favor ligue: 123-456-7890</p>
                     </div>
                     <div>
-                        <button className={styles.btn}>Contate-nos</button>
+                        <Link to={'/contato'}><button className={styles.btn}>Contate-nos</button></Link>
                     </div>
                     <div className={styles.copy}>
                         <p className={styles.copy_text}>© 2035 por Construcy.</p>

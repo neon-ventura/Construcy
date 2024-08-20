@@ -1,0 +1,76 @@
+.content {
+    padding: 30px;
+    margin-top: 100px;
+}
+
+.p1 {
+    font-size: 1.3em;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+
+.h3 {
+    color: #FD5521;
+    font-weight: bold;
+    font-size: 1.7em;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+}
+
+.link {
+    color: black;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.input[type="text"],
+.input[type="email"],
+.textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid #333;
+    outline: none;
+    width: 100%;
+}
+
+.input[type="email"]:invalid {
+    border-bottom: 1px solid red;
+}
+
+.textarea {
+    height: 150px;
+    resize: none;
+    border: 1px solid #333;
+}
+
+.input[type="text"]:focus,
+.input[type="email"]:focus,
+.textarea:focus {
+    border-bottom: 1px solid #000;
+}
+
+.btn {
+    background-color: #FD5521;
+    color: black;
+    padding: 15px;
+    border: none;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.img {
+    height: 300px;
+    width: 100vw;
+}

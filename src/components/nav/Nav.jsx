@@ -20,7 +20,7 @@ const Nav = () => {
                                     <a className={`${styles.nav_link} nav-link`} href="/">Home</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className={`${styles.nav_link} nav-link`} href="/services">Serviços</a>
+                                    <a className={`${styles.nav_link} nav-link`} href="/serviços">Serviços</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className={`${styles.nav_link} nav-link`} href="#">Projetos</a>
@@ -29,7 +29,7 @@ const Nav = () => {
                                     <a className={`${styles.nav_link} nav-link`} href="#">Sobre Nós</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className={`${styles.nav_link} nav-link`} href="#">Contato</a>
+                                    <a className={`${styles.nav_link} nav-link`} href="/contato">Contato</a>
                                 </li>
                             </ul>
                         </div>
