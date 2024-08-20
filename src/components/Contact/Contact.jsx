@@ -18,6 +18,11 @@ const Contact = () => {
                     <p className={styles.p2}>Por favor, use o formulário abaixo ou entre em contato via <a className={styles.link} href="https://api.whatsapp.com/send/?phone=5533987289728&text&type=phone_number&app_absent=0">WhatsApp.</a></p>
                 </div>
                 <form action="https://formsubmit.co/neonventura@gmail.com" method='POST' className={styles.form}>
+
+                    <input type="hidden" name="_autoresponse" value="Agradecemos pela mensagem, retornaremos em breve!" />
+                    <input type="hidden" name="_captcha" value="false" />
+                    <input type="hidden" name="_next" value="https://construcy.vercel.app/contato"></input>
+
                     <label className={styles.label} for="first-name">Primeiro Nome</label>
                     <input className={styles.input} type="text" id="first-name" name="first-name" />
 
