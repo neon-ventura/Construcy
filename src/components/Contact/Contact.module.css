@@ -33,6 +33,10 @@
     color: #333;
 }
 
+.input {
+    background-color: #F7F7F7;
+}
+
 .input[type="text"],
 .input[type="email"],
 .textarea {
