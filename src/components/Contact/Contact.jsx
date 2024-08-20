@@ -1,8 +1,13 @@
 import styles from './Contact.module.css'
 import Nav from './../nav/Nav.jsx'
 import Footer from './../Footer/Footer.jsx'
+import ReactInputMask from 'react-input-mask'
+import { useState } from 'react'
 
 const Contact = () => {
+
+    const [phone, setPhone] = useState('')
+
     return (
         <>
             <Nav />
@@ -21,6 +26,15 @@ const Contact = () => {
 
                     <label className={styles.label} for="email">Email *</label>
                     <input className={styles.input} type="email" id="email" name="email" required />
+
+                    <label className={`${styles.label} ${styles.number}`} for="number">Número</label>
+                    <ReactInputMask 
+                        className={styles.number}
+                        name='number'
+                        mask={"(99) 99999-9999"}
+                        value={phone}
+                        onChange={(e) => setPhone(e.target.value)}
+                    /> 
 
                     <label className={styles.label} for="subject">Objetivo</label>
                     <input className={styles.input} type="text" id="subject" name="subject" />
