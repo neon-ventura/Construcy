@@ -32,7 +32,7 @@ const Contact = () => {
                     <label className={styles.label} for="email">Email *</label>
                     <input className={styles.input} type="email" id="email" name="email" required />
 
-                    <label className={`${styles.label} ${styles.number}`} for="number">Número</label>
+                    <label className={`${styles.label} ${styles.number}`} required for="number">Número</label>
                     <ReactInputMask 
                         className={styles.number}
                         name='number'
