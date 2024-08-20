@@ -4,11 +4,13 @@ import Home from './components/Home/Home.jsx'
 import Services from './components/Services/Services.jsx'
 import Contact from './components/Contact/Contact.jsx'
 import About from './components/About/About.jsx'
+import ScrollToTop from './ScrollToTop.jsx'
 function App() {
 
   return (
     <>
       <BrowserRouter>
+          <ScrollToTop />
         <Routes>
           <Route path='/' element={<Home />}/>
           <Route path='/serviços' element={<Services />} />
