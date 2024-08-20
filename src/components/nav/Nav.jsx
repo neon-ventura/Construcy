@@ -23,7 +23,7 @@ const Nav = () => {
                                     <a className={`${styles.nav_link} nav-link`} href="/serviços">Serviços</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className={`${styles.nav_link} nav-link`} href="#">Projetos</a>
+                                    <a className={`${styles.nav_link} nav-link`} href="projetos">Projetos</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className={`${styles.nav_link} nav-link`} href="/sobre">Sobre Nós</a>
