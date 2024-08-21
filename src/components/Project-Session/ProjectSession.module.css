@@ -1,0 +1,17 @@
+.btn {
+    color: black;
+    margin: 30px;
+}
+
+.img {
+    height: 250px;
+    width: 100vw;
+}
+
+.text {
+    padding: 30px;
+}
+
+.h3 {
+    font-family: 'Poppins';
+}
