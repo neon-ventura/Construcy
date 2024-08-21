@@ -16,7 +16,7 @@ const OurProjects = () => {
                         Conheça nossos projetos mais recentes, que exemplificam qualidade, inovação e compromisso com os clientes. Confira as fotos abaixo e veja como transformamos ideias em realidade.
                     </p>
                     <Link to={'/projetos'}>
-                        <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
+                        <div id="carouselExampleAutoplaying" className={`${styles.card} carousel slide`} data-bs-ride="carousel">
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
                                     <img src="/ourProjects/img-1.jpg" className={`${styles.img} d-block w-100`} alt="..." />
@@ -27,9 +27,17 @@ const OurProjects = () => {
                                 </div>
                                 <div class="carousel-item">
                                     <img src="/ourProjects/img-2.jpg" className={`${styles.img} d-block w-100`} alt="..." />
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>First slide label</h5>
+                                        <p>Some representative placeholder content for the first slide.</p>
+                                    </div>
                                 </div>
                                 <div class="carousel-item">
                                     <img src="/ourProjects/img-3.jpg" className={`${styles.img} d-block w-100`} alt="..." />
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>First slide label</h5>
+                                        <p>Some representative placeholder content for the first slide.</p>
+                                    </div>
                                 </div>
                             </div>
                             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">

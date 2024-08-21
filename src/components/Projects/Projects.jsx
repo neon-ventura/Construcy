@@ -2,11 +2,13 @@ import Nav from "../nav/Nav"
 import styles from "./Projects.module.css"
 import Footer from './../Footer/Footer.jsx'
 import { Link } from "react-router-dom"
+import ScrollToTop from "../../ScrollToTop.jsx"
 
 const Projects = () => {
     return (
         <>
             <Nav />
+            <ScrollToTop />
             <div className={styles.content}>
                 <p className={styles.p1}> Nossos Projetos</p>
                 <h3 className={styles.h3}>

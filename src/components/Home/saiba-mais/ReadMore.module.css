@@ -23,3 +23,17 @@
     width: 150px;
     margin-top: 20px;
 }
+
+@media (min-width: 769px) {
+    .content {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 60px;
+    }
+
+    .h3 {
+        font-size: 2em;
+        width: 400px;
+    }
+}

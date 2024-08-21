@@ -8,11 +8,13 @@ import Creative from "./creative/Creative"
 import OurProjects from "./our-projects/OurProjects"
 import Footer from "../Footer/Footer"
 import Nav from "../nav/Nav"
+import ScrollToTop from "../../ScrollToTop"
 
 const Home = () => {
     return (
         <>  
             <body>
+                <ScrollToTop />
                 <Nav />
                 <Header />
                 <ReadMore />

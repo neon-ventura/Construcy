@@ -3,6 +3,7 @@ import Nav from './../nav/Nav.jsx'
 import Footer from './../Footer/Footer.jsx'
 import ReactInputMask from 'react-input-mask'
 import { useState } from 'react'
+import ScrollToTop from '../../ScrollToTop.jsx'
 
 const Contact = () => {
 
@@ -11,6 +12,7 @@ const Contact = () => {
     return (
         <>
             <Nav />
+            <ScrollToTop />
             <div className={styles.content}>
                 <div className={styles.contact_header}>
                     <p className={styles.p1}>Contate-nos</p>

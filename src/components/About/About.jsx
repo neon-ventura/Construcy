@@ -1,3 +1,4 @@
+import ScrollToTop from '../../ScrollToTop'
 import Footer from '../Footer/Footer'
 import Nav from '../nav/Nav'
 import styles from './About.module.css'
@@ -6,6 +7,7 @@ const About = () => {
     return (
         <>
             <Nav />
+            <ScrollToTop />
             <div className={styles.content}>
                 <div className={styles.about_header}>
                     <p className={styles.p1}>Sobre nós</p>

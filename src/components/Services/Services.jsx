@@ -7,11 +7,13 @@ import { RiBuilding2Line } from 'react-icons/ri'
 import { MdOutlineEngineering, MdOutlineWallpaper } from 'react-icons/md'
 import { PiFireTruckThin } from 'react-icons/pi'
 import { GoGear } from 'react-icons/go'
+import ScrollToTop from '../../ScrollToTop.jsx'
 
 const Services = () => {
     return (
         <>
             <Nav />
+            <ScrollToTop />
             <div className={styles.content}>
                 <div className={styles.services_header}>
                     <p className={styles.p1}>Nossos Serviços</p>

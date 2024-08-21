@@ -10,37 +10,41 @@ const Creative = () => {
     return (
         <>
             <div className={styles.content}>
-                <div className={styles.card}>
-                    <FaRegBuilding size={70} />
-                    <p className={styles.p}>Construção Comercial</p>
+                <div className={styles.cardGroup}>
+                    <div className={styles.card}>
+                        <FaRegBuilding size={70} />
+                        <p className={styles.p}>Construção Comercial</p>
+                    </div>
+                    <div className={styles.card}>
+                        <CiHome size={70}/>
+                        <p className={styles.p}>Construção Residencial</p>
+                    </div>
+                    <div className={styles.card}>
+                        <CiMap size={70}/>
+                        <p className={styles.p}>Pré Construção</p>
+                    </div>
+                    <div className={styles.card}>
+                        <MdOutlineEngineering size={70}/>
+                        <p className={styles.p}>Gerenciamento</p>
+                    </div>
                 </div>
-                <div className={styles.card}>
-                    <CiHome size={70}/>
-                    <p className={styles.p}>Construção Residencial</p>
-                </div>
-                <div className={styles.card}>
-                    <CiMap size={70}/>
-                    <p className={styles.p}>Pré Construção</p>
-                </div>
-                <div className={styles.card}>
-                    <MdOutlineEngineering size={70}/>
-                    <p className={styles.p}>Gerenciamento</p>
-                </div>
-                <div className={styles.card}>
-                    <RiBuilding2Line size={70} />
-                    <p className={styles.p}>Projetos Especiais</p>
-                </div>
-                <div className={styles.card}>
-                    <PiFireTruckThin size={70}/>
-                    <p className={styles.p}>Construção de Infraestrutura</p>
-                </div>
-                <div className={styles.card}>
-                    <GoGear size={70}/>
-                    <p className={styles.p}>Engenharia Civil</p>
-                </div>
-                <div className={styles.card}>
-                    <MdOutlineWallpaper size={70}/>
-                    <p className={styles.p}>Construção de Paisagens</p>
+                <div className={styles.cardGroup}>
+                    <div className={styles.card}>
+                        <RiBuilding2Line size={70} />
+                        <p className={styles.p}>Projetos Especiais</p>
+                    </div>
+                    <div className={styles.card}>
+                        <PiFireTruckThin size={70}/>
+                        <p className={styles.p}>Construção de Infraestrutura</p>
+                    </div>
+                    <div className={styles.card}>
+                        <GoGear size={70}/>
+                        <p className={styles.p}>Engenharia Civil</p>
+                    </div>
+                    <div className={styles.card}>
+                        <MdOutlineWallpaper size={70}/>
+                        <p className={styles.p}>Construção de Paisagens</p>
+                    </div>
                 </div>
             </div>
         </>

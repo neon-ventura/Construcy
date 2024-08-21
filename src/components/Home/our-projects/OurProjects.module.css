@@ -1,4 +1,5 @@
 .content {
+    margin-top: 50px;
     padding: 30px;
     font-family: 'Poppins', sans-serif;
 }
@@ -22,4 +23,26 @@
 .hr {
     margin-top: 40px;
     border: 1px solid black;
+}
+
+@media (min-width: 769px) {
+    .content {
+        padding: 60px;
+    }
+    .h3 {
+        font-size: 2em;
+    }
+
+    .p2 {
+        width: 500px;
+    }
+
+    .card {
+        width: 1000px;
+
+    }
+
+    .img {
+        height: 500px;
+    }
 }

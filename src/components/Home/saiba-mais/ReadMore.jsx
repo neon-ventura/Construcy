@@ -5,9 +5,13 @@ const ReadMore = () => {
     return (
         <>
             <div className={styles.content}>
-                <p className={styles.paragraph}>Construir é oque fazemos</p>
-                <h3 className={styles.h3}>Contrucy está liderando projetos de qualidade</h3>
-                <Link to={'/'}> <button className={styles.btn}>Saiba-Mais</button> </Link>
+                <div className={styles.text}>
+                    <p className={styles.paragraph}>Construir é oque fazemos</p>
+                    <h3 className={styles.h3}>Contrucy está liderando projetos de qualidade</h3>
+                </div>
+                <div>
+                    <Link to={'/'}> <button className={styles.btn}>Saiba-Mais</button> </Link>
+                </div>
             </div>
         </>
     )

@@ -41,3 +41,89 @@
     background-size: cover;
     margin: auto;
 }
+
+@media (min-width: 769px) {
+    .img1 {
+        display: block;
+        background-image: url('/servicesDetails/img-1.jpg');
+        background-attachment: local;
+        height: 800px;
+        width: 500px;
+    }
+
+    .services_text {
+        padding: 0;
+    }
+
+    .commercial {
+        display: flex;
+        width: 100vw;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .services_text {
+        width: 300px;
+    }
+
+    .h3 {
+        font-size: 2em;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .txt {
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    /* ----------- */
+
+    .img2 {
+        display: block;
+        background-image: url('/servicesDetails/img-2.jpg');
+        background-attachment: fixed;
+        height: 800px;
+        width: 500px;
+    }
+
+    .infra {
+        display: flex;
+        margin-top: 100px;
+        width: 100vw;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .residential {
+        display: none;
+    }
+
+    .residential_media {
+        display: flex;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        width: 100vw;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .p {
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    .img4 {
+        display: block;
+        background-image: url('/servicesDetails/img-4.jpg');
+        background-attachment: local;
+        height: 800px;
+        width: 500px;
+        background-position: right;
+        background-size: cover;
+        margin: 0;
+    }
+}

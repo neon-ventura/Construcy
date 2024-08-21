@@ -56,3 +56,31 @@
     margin-top: 5px;
     font-weight: 14em;
 }
+
+@media (min-width: 769px) {
+    .content {
+        padding: 90px;
+    }
+
+    .about_h3 {
+        font-weight: bold;
+        font-size: 3em;
+    }
+
+    .about_p2 {
+        width: 400px;
+    }
+
+    .data {
+        display: flex;
+    }
+
+    .data_text {
+        margin-bottom: 40px;
+        margin-right: 30px;
+    }
+
+    .signature {
+        font-size: 1.2em;
+    }
+}

@@ -22,3 +22,21 @@
     border: none;
     width: 150px;
 }
+
+@media (min-width: 769px) {
+    .content {
+        padding: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .text {
+        width: 400px;
+    }
+
+    .h3 {
+        font-size: 2em;
+    }
+    
+}
