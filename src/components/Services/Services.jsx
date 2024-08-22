@@ -12,8 +12,8 @@ import ScrollToTop from '../../ScrollToTop.jsx'
 const Services = () => {
     return (
         <>
-            <Nav />
             <ScrollToTop />
+            <Nav />
             <div className={styles.content}>
                 <div className={styles.services_header}>
                     <p className={styles.p1}>Nossos Serviços</p>
