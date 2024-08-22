@@ -62,3 +62,9 @@
     align-items: center;
     height: 60vh;
 }
+
+@media (min-width: 769px) {
+    .nav {
+        padding: 60px !important;
+    }
+}

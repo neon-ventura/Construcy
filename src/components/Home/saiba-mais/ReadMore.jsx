@@ -10,7 +10,7 @@ const ReadMore = () => {
                     <h3 className={styles.h3}>Contrucy está liderando projetos de qualidade</h3>
                 </div>
                 <div>
-                    <Link to={'/'}> <button className={styles.btn}>Saiba-Mais</button> </Link>
+                    <Link to={'/projetos'}> <button className={styles.btn}>Saiba-Mais</button> </Link>
                 </div>
             </div>
         </>
