@@ -29,7 +29,8 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        padding: 60px;
+        padding: 100px 0px;
+        /* border: 1px solid black; */
     }
 
     .h3 {
