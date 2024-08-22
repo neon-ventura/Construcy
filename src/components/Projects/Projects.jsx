@@ -42,6 +42,11 @@ const Projects = () => {
                     <img src="/projects/img-5.webp" className={styles.img}></img>
                     <p className={styles.p2}>Halston Parkway</p>
                     </Link>
+
+                    <Link className={styles.a} to={'/projetos/6'}>
+                    <img src="/projects/img-6.webp" className={styles.img}></img>
+                    <p className={styles.p2}>Sunnydale Apartment Complex</p>
+                    </Link>
                 </div>
 
                 <Footer />

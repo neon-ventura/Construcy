@@ -19,24 +19,39 @@ const OurProjects = () => {
                         <div id="carouselExampleAutoplaying" className={`${styles.card} carousel slide`} data-bs-ride="carousel">
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
-                                    <img src="/ourProjects/img-1.jpg" className={`${styles.img} d-block w-100`} alt="..." />
+                                    <img src="/projects/img-1.webp" className={`${styles.img} d-block w-100`} alt="..." />
                                     <div class="carousel-caption d-none d-md-block">
-                                        <h5>First slide label</h5>
-                                        <p>Some representative placeholder content for the first slide.</p>
+                                        <h2>Angela Residence</h2>                                    
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="/ourProjects/img-2.jpg" className={`${styles.img} d-block w-100`} alt="..." />
+                                    <img src="/projects/img-2.webp" className={`${styles.img} d-block w-100`} alt="..." />
                                     <div class="carousel-caption d-none d-md-block">
-                                        <h5>First slide label</h5>
-                                        <p>Some representative placeholder content for the first slide.</p>
+                                        <h2>Sam Valley Highway</h2>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="/ourProjects/img-3.jpg" className={`${styles.img} d-block w-100`} alt="..." />
+                                    <img src="/projects/img-3.webp" className={`${styles.img} d-block w-100`} alt="..." />
                                     <div class="carousel-caption d-none d-md-block">
-                                        <h5>First slide label</h5>
-                                        <p>Some representative placeholder content for the first slide.</p>
+                                        <h2>Irving Industrial Region</h2>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/projects/img-4.webp" className={`${styles.img} d-block w-100`} alt="..." />
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h2>Mission Lake Bridge</h2>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/projects/img-5.webp" className={`${styles.img} d-block w-100`} alt="..." />
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h2>Halston Parkway</h2>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/projects/img-6.webp" className={`${styles.img} d-block w-100`} alt="..." />
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h2>Sunnydale Apartment Complex</h2>
                                     </div>
                                 </div>
                             </div>

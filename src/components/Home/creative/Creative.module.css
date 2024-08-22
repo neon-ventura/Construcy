@@ -1,11 +1,15 @@
-.content {
-    color: #FD5521;
-}
-
 .card {
     padding: 20px;
     margin-bottom: 15px;
     background-color: white;
+}
+
+.icon {
+    color: #FD5521;
+}
+
+.link {
+    text-decoration: none;
 }
 
 .p {
@@ -25,11 +29,14 @@
     }
 
     .card {
-        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         margin-bottom: 0px;
-        margin: 10px;
+        margin: 20px;
         background-color: white;
-        width: 200px;
+        width: 250px;
+        height: 250px;
         border-radius: 10px;
         border: 1px solid rgba(0, 0, 0, 0.164);
     }
