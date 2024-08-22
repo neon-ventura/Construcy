@@ -3,7 +3,7 @@ import styles from './Nav.module.css'
 const Nav = () => {
     return (
         <>
-            <nav className={`${styles.nav} navbar navbar-dark fixed-top`}>
+            <nav className={`${styles.nav} navbar navbar-dark`}>
                 <div className={`${styles.container} container-fluid`}>
                     <a className={`${styles.title} navbar-brand`} href="/">Construcy</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">

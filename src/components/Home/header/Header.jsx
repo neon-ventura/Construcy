@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import styles from './Header.module.css'
 import { useEffect, useState } from 'react'
+import Nav from '../../nav/Nav'
 
 const Header = () => {
 
@@ -18,7 +19,9 @@ const Header = () => {
         <>
             <header className={styles.header}>
                 <video key={srcPc} className={styles.video} src={srcPc} loop autoPlay muted></video>
+                <Nav />
                 <div className={styles.content}>
+
                     <h1 className={styles.title}>Construindo um futuro Concreto</h1>
                     <div className={styles.desc}>
                         <h2 className={styles.desc_text}>Honestidade, Confiança</h2>

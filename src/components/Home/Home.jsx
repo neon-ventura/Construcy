@@ -15,7 +15,7 @@ const Home = () => {
         <>  
             <body>
                 <ScrollToTop />
-                <Nav />
+                
                 <Header />
                 <ReadMore />
                 <ServicesDetails />
