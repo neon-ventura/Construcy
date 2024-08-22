@@ -22,16 +22,16 @@ const Footer = () => {
                     </div>
                     <div className={styles.inquiries_section}>
                         <h3 className={styles.h3}>Duvidas</h3>
-                        <p>Para qualquer duvida ou elogios, por favor ligue: 123-456-7890</p>
+                        <p className={styles.inquiries_p}>Para qualquer duvida ou elogios, por favor ligue: 123-456-7890</p>
                     </div>
                     <div>
                         <Link to={'/contato'}><button className={styles.btn}>Contate-nos</button></Link>
                     </div>
+                </div>
                     <div className={styles.copy}>
                         <p className={styles.copy_text}>© 2035 por Construcy.</p>
                         <p className={styles.copy_text}>Desenvolvido por <a className={styles.dev} href="https://api.whatsapp.com/send?phone=+55(33)98728-9728&text=Ol%C3%A1!">Neon Ventura</a></p>
                     </div>
-                </div>
             </div>
         </>
     )
