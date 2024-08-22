@@ -27,8 +27,17 @@
 
 @media (min-width: 769px) {
     .content {
+        display: flex !important;
+        justify-content: center;
         padding: 60px;
     }
+
+    /* .our_projects_text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } */
+
     .h3 {
         font-size: 2em;
     }

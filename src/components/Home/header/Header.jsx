@@ -1,11 +1,23 @@
 import { Link } from 'react-router-dom'
 import styles from './Header.module.css'
+import { useEffect, useState } from 'react'
 
 const Header = () => {
+
+    const [srcPc, setSrcPc] = useState('/header/header-video.mp4')
+
+    
+
+    useEffect( () => {
+        if (window.innerWidth > 769) {
+            setSrcPc('/header/header-pc-video.mp4')
+        }
+    }, [])
+
     return (
         <>
             <header className={styles.header}>
-                <video className={styles.video} src="/header/header-video.mp4" loop autoPlay muted></video>
+                <video key={srcPc} className={styles.video} src={srcPc} loop autoPlay muted></video>
                 <div className={styles.content}>
                     <h1 className={styles.title}>Construindo um futuro Concreto</h1>
                     <div className={styles.desc}>

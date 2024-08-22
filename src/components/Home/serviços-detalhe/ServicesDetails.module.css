@@ -42,6 +42,10 @@
     margin: auto;
 }
 
+.residential_media {
+    display: none;
+}
+
 @media (min-width: 769px) {
     .img1 {
         display: block;
