@@ -22,10 +22,9 @@ const ServicesDetails = () => {
                 </div>
 
                 <div className={styles.residential}>
-                    <div className={styles.img3}></div>
+                        <div className={styles.img4}></div>
                     <div className={styles.services_text}>
                         <h3 className={styles.h3}>Residencial</h3>
-                        <div className={styles.img4}></div>
                         <p className={styles.p}>No segmento residencial, construímos mais que casas, criamos lares. Combinando design moderno e funcionalidade, nossos projetos residenciais são planejados com atenção aos detalhes, priorizando conforto e qualidade. Cada residência reflete nosso compromisso com a excelência e a satisfação do cliente.</p>
                     </div>
                 </div>
