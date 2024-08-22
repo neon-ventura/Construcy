@@ -48,12 +48,26 @@
     margin-right: 30px;
 }
 
+.btn_1:hover {
+    background-color: black;
+    color: #FD5521;
+    transition: 0.3s;
+    border: 1px solid #FD5521;
+}
+
 .btn_2 {
     background-color: transparent;
     color: white;
     border: 1px solid white;
     padding: 15px;
     width: 150px;
+}
+
+.btn_2:hover {
+    background-color: #FD5521;
+    border: none;
+    color: black;
+    transition: 0.3s;
 }
 
 @media (min-width: 769px) {

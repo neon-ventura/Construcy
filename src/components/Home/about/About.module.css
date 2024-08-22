@@ -2,6 +2,7 @@
     background-image: url('/data-images/about-body.jpg');
     background-position: left;
     background-size: cover;
+    background-attachment: fixed;
     padding: 30px;
 }
 
